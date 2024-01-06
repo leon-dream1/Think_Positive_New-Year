@@ -90,3 +90,44 @@
     color: green;
     padding: 10px;
 }
+
+
+.my_plan{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.my_plan_heading{
+    text-align: center;
+    margin-bottom: 80px;
+    color: #151414;
+    font-weight: bold;
+    font-size: 50px;
+}
+.my_plan_container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.my_plan_main_content{
+    display: flex;
+    gap: 24px;
+}
+.my_plan_content{
+    width: 25%;
+    text-align: center;
+    padding: 20px 5px;
+    transition: .5s;
+}
+.my_plan_content:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.my_plan_content h2{
+    margin: 20px 0;
+    color: #151414;
+    font-size: 30px;
+    font-weight: bold;
+}
+.my_plan_content p{
+    color: #737272;
+    font-size: 18px;
+    font-weight: 600;
+}
